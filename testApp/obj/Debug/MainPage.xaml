@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="testapp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:testapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBox x:Name="tbx" Height="100" Width="300" Margin="67,61,999,607" PlaceholderText="eg. maverick bosch" Header="your name here"/>
+        <TextBlock x:Name="tba" Height="100" Width="300" Margin="449,65,617,603" FontSize="40" Foreground="Red" Text="testing"/>
+        <Button x:ConnectionId='1' x:Name="buttona" Content="press me" Height="150" Width="216" Margin="825,62,0,556"                       />
+        <Button x:ConnectionId='2' x:Name="buttonb" Content="change color" Height="150" Width="300"                       Visibility="Visible" Margin="393,243,0,375"/>
+      
+        <ComboBox x:Name="combo" Header="dropdown element" Height="100" Width="300" Margin="67,419,999,249" SelectedIndex="2">
+            <ComboBoxItem x:ConnectionId='3' x:Name="cmb1" Content="nokia"                     />
+            <ComboBoxItem Content="samsung"/>
+            <ComboBoxItem Content="apple"/>
+        </ComboBox>
+    
+        <RadioButton x:Name="lcd" Content="LCD" GroupName="tele" IsChecked="True" Height="150" Width="150" Margin="64,560,1152,58"/>
+        <RadioButton x:Name="led" Content="LED" GroupName="tele" Height="150" Width="150" Margin="277,560,939,58"/>
+    </Grid>
+</Page>
+

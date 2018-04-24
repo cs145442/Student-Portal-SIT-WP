@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUSHANTSAGAR</Machine>
+    <WindowsUser>sushant sagar</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8125956c-8ec0-4a3a-b900-b3d785d8ed49</PackageIdentityName>
+    <IntermediateOutputPath>e:\visual studio 2013\Projects\testapp\testapp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>CC0632CBD46BD7177DCC01AE97338C6D13512B1622545EC429145A59D27AC43D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8125956c-8ec0-4a3a-b900-b3d785d8ed49_1.0.0.0_neutral__8q1b2d24dce8g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8125956c-8ec0-4a3a-b900-b3d785d8ed49_8q1b2d24dce8g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8125956c-8ec0-4a3a-b900-b3d785d8ed49</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=sushant sagar</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-15T00:10:40.338</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\testapp.exe">
+      <PackagePath>testapp.exe</PackagePath>
+      <Modified>2015-03-15T01:59:08.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-15T00:10:39.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-03-15T01:25:10.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\testapp.xr.xml">
+      <PackagePath>testapp.xr.xml</PackagePath>
+      <Modified>2015-03-15T01:25:09.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\visual studio 2013\Projects\testapp\testapp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-15T00:10:40.085</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
